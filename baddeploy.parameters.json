@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "AdminUserName": {
+      "value": "azureUser"
+    },
+    "AdminPassword": {
+      "value": "AzurePassword!"
+    },
+    "LabUbuVMName": {
+      "value": "DP008UbuVm"
+    },
+
+    "LabUbuVMUbuntuOSVersion": {
+      "value": "14.04.2-LTS"
+    },
+    "LabAvSetName": {
+      "value": "LabAvSet"
+    },
+    {
+      "sadp007lod6914718Type": {
+       "value": "Standard_LRS"
+      }
+    }
+  }
+}
