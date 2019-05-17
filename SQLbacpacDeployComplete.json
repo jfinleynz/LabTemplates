@@ -82,7 +82,7 @@
                             "properties": {
                                 "storageKeyType": "SharedAccessKey",
                                 "storageKey": "?",
-                                "storageUri": "<Insert your bacpac uri here>",
+                                "storageUri": "Insert your bacpac uri here",
                                 "administratorLogin": "[parameters('sqlAdministratorLogin')]",
                                 "administratorLoginPassword": "[parameters('sqlAdministratorLoginPassword')]",
                                 "operationMode": "Import"
